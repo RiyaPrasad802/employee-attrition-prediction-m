@@ -35,3 +35,6 @@ htmlcov/
 
 *.tmp
 *.log
+
+# Keep the dataset local untill redistribution terms are verified
+data/
