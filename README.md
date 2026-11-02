@@ -91,8 +91,8 @@ The model achieved 86.05% accuracy and a ROC-AUC of 81.15%. However, its recall 
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd employee-attrition-prediction-ml
+git clone https://github.com/RiyaPrasad802/employee-attrition-prediction-m.git
+cd employee-attrition-prediction-m
 ```
 
 Replace `YOUR_GITHUB_REPOSITORY_URL` with your repository's actual URL.
@@ -110,7 +110,15 @@ python -m venv .venv
 
 ```powershell
 python -m pip install -r requirements.txt
-```
+
+
+### Dataset Information
+
+The original IBM HR Analytics Employee Attrition dataset is not included in this public repository. It is excluded to avoid redistributing the dataset without first verifying its applicable terms.
+
+The trained model is included in the repository. Therefore, running the Streamlit application does not require the original CSV file, provided the saved model file and compatible dependencies are available.
+
+To reproduce the analysis notebook, obtain the dataset from a legitimate source and follow its applicable terms of use. Place the CSV file in the data/raw/ directory and ensure the notebook's file path matches the filename.
 
 ### 4. Start the Streamlit application
 
